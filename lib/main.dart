@@ -28,7 +28,7 @@ class WaterMonitorHomePage extends StatefulWidget {
 
 class _WaterMonitorHomePageState extends State<WaterMonitorHomePage> {
   int _currentIndex = 0;
-  double _currentUsage = 1300;
+  double _currentUsage = 1200;
   final double _dailyLimit = 2000;
   bool _leakDetected = true;
 
@@ -43,7 +43,7 @@ class _WaterMonitorHomePageState extends State<WaterMonitorHomePage> {
     return Scaffold(
       backgroundColor: Colors.grey[50],
       appBar: AppBar(
-        title: Text('AquaFlow'),
+        title: Text('Iot-Project'),
         elevation: 0,
         actions: [
           IconButton(
